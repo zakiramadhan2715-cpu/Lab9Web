@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f6f8; color: #263238; }
+.container { max-width: 960px; margin: 30px auto; background: #fff; padding: 24px; }
+header, footer { padding: 16px; background: #eaf2f8; }
+nav { display: flex; gap: 16px; padding: 14px 0; flex-wrap: wrap; }
+nav a { color: #145a86; text-decoration: none; padding: 4px 8px; }
+nav a:hover { text-decoration: underline; }
+nav a.active { background: #145a86; color: #fff; border-radius: 4px; }
+main { min-height: 220px; padding: 16px 0; }
+footer { text-align: center; font-size: 14px; }
+input[type=text], input[type=email] { padding: 6px; margin: 4px 0; }
+button { padding: 6px 12px; cursor: pointer; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #cfd8dc; padding: 8px; text-align: left; }
+th { background: #eaf2f8; }
+.alert { padding: 10px 14px; margin-bottom: 12px; border-radius: 4px; }
+.alert.sukses { background: #e6f4ea; color: #1e6b34; }
+.alert.gagal { background: #fdecea; color: #a12622; }
+.inline { display: inline; }
+.link-btn { background: none; border: none; color: #b3261e; cursor: pointer; padding: 0; text-decoration: underline; }

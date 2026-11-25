@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #263238;
+}
+.container {
+    max-width: 960px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 24px;
+}
+header, footer { padding: 16px; background: #eaf2f8; }
+nav { display: flex; gap: 16px; padding: 14px 0; }
+nav a { color: #145a86; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+main { min-height: 220px; padding: 16px 0; }
+footer { text-align: center; font-size: 14px; }
